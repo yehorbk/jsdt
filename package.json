@@ -1,0 +1,35 @@
+{
+  "name": "jss",
+  "version": "1.0.0",
+  "description": "Joseph Stalin Script - JavaScript dialect language.",
+  "main": "index.js",
+  "bin": {
+    "jss": "./bin/cli.js"
+  },
+  "directories": {
+    "src": "src",
+    "test": "tests"
+  },
+  "scripts": {
+    "start": "echo \"Error: no start specified\" && exit 1",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yehorbk/jss.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/yehorbk/jss/issues"
+  },
+  "homepage": "https://github.com/yehorbk/jss#readme",
+  "devDependencies": {
+    "eslint": "^6.8.0",
+    "eslint-config-airbnb": "^18.0.1",
+    "eslint-plugin-import": "^2.20.1",
+    "eslint-plugin-jsx-a11y": "^6.2.3",
+    "eslint-plugin-react": "^7.18.3"
+  }
+}
