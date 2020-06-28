@@ -15,5 +15,9 @@
         "ecmaVersion": 6,
         "sourceType": "module"
     },
-    "rules": {}
+    "rules": {
+        "indent": ["error", 4],
+        "strict": "off",
+        "arrow-parens": "off"
+    }
 }
