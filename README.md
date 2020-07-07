@@ -1,6 +1,9 @@
 # JavaScript Dialect Template
 Template for implementing JavaScript dialects
 
+# Concept
+This project allows users to create their own JavaScript dialects. Implementation is very simple, it uses dictionary and regular expressions to replace dialect keys (words) to vanilla ECMAScript.
+
 # How to Use
 1. Fork this repository to your GitHub account
 2. Change dictionary and config files
