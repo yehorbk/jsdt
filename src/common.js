@@ -2,19 +2,24 @@
 
 const fs = require('fs');
 
-const readFile = async filePath => {
-    return new Promise(resolve => {
-        fs.readFile(filePath, 'utf-8', (err, data) => {
-            if (err) return err;
-            return resolve(data);
-        });
+const readFile = filePath => new Promise((resolve, reject) => {
+    fs.readFile(filePath, 'utf-8', (err, data) => {
+        if (err) {
+            reject(err);
+        } else {
+            resolve(data);
+        }
     });
-};
+});
 
-const writeFile = (filePath, string) => {
-    fs.writeFile(filePath, string, (err) => {
-        if (err) return err;
+const writeFile = (filePath, data) => new Promise((resolve, reject) => {
+    fs.writeFile(filePath, data, (err) => {
+        if (err) {
+            reject(err);
+        } else {
+            resolve(filePath);
+        }
     });
-};
+});
 
 module.exports = { readFile, writeFile };

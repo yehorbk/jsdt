@@ -12,12 +12,14 @@
         "SharedArrayBuffer": "readonly"
     },
     "parserOptions": {
-        "ecmaVersion": 6,
+        "ecmaVersion": 2020,
         "sourceType": "module"
     },
     "rules": {
         "indent": ["error", 4],
         "strict": "off",
-        "arrow-parens": "off"
+        "arrow-parens": "off",
+        "no-restricted-syntax": "off",
+        "guard-for-in": "off"
     }
 }

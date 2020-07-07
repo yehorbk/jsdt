@@ -31,5 +31,8 @@
     "eslint-plugin-import": "^2.20.1",
     "eslint-plugin-jsx-a11y": "^6.2.3",
     "eslint-plugin-react": "^7.18.3"
+  },
+  "dependencies": {
+    "cli-argv-parser": "^1.0.1"
   }
 }
