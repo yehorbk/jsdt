@@ -1,9 +1,10 @@
 'use strict';
 
-const dictionary = require('./dictionary');
+const { inputFileType, outputFileType } = require('./config');
 const { readFile, writeFile } = require('./common');
+const dictionary = require('./dictionary');
 
-const getOutputFileName = inputFile => inputFile.replace('.jss', '.js');
+const getOutputFileName = inputFileName => inputFileName.replace(inputFileType, outputFileType);
 
 const translate = async file => {
     let source = await readFile(file);
@@ -14,8 +15,8 @@ const translate = async file => {
             source = source.replace(regex, command);
         }
     }
-    const output = getOutputFileName(file);
-    return writeFile(output, source);
+    const outputFileName = getOutputFileName(file);
+    return writeFile(outputFileName, source);
 };
 
 module.exports = { translate };
