@@ -1,10 +1,9 @@
 {
-  "name": "jss",
+  "name": "jsdt",
   "version": "1.0.0",
-  "description": "Joseph Stalin Script - JavaScript dialect language.",
-  "main": "index.js",
+  "description": "Template for implementing JavaScript dialects",
   "bin": {
-    "jss": "./bin/cli.js"
+    "jsdt": "./bin/cli.js"
   },
   "directories": {
     "src": "src",
@@ -16,15 +15,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/yehorbk/jss.git"
+    "url": "git+https://github.com/yehorbk/jsdt.git"
   },
   "keywords": [],
   "author": "",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/yehorbk/jss/issues"
+    "url": "https://github.com/yehorbk/jsdt/issues"
   },
-  "homepage": "https://github.com/yehorbk/jss#readme",
+  "homepage": "https://github.com/yehorbk/jsdt#readme",
   "devDependencies": {
     "eslint": "^6.8.0",
     "eslint-config-airbnb": "^18.0.1",
