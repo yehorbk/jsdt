@@ -1,2 +1,2 @@
-# jss
-Joseph Stalin Script - JavaScript dialect language.
+# JavaScript Dialect Template
+Template for implementing JavaScript dialects
