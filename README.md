@@ -13,4 +13,4 @@ This project allows users to create their own JavaScript dialects. Implementatio
 # [Contributing](https://github.com/yehorbk/jsdt/CONTRIBUTING.md)
 
 # Author
-**Yehor Bublyk**: [GitHub](https://github.com/yehorbk) • [Twitter](https://twitter.com/thisisyehorbk)
+**Yehor Bublyk**: [GitHub](https://github.com/yehorbk) • [Twitter](https://twitter.com/yehorbk)
